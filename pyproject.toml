@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "kaggle-store-sales"
+version = "0.1.0"
+description = "A practice exercise to learn LightGBM"
+authors = ["Faiz <ghost0x07@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.23.1"
+pandas = "^1.4.3"
+matplotlib = "^3.5.2"
+seaborn = "^0.11.2"
+pandas-profiling = "^3.2.0"
+lightgbm = "^3.3.2"
+python-dotenv = "^0.20.0"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.15.1"
+ipywidgets = "^7.7.1"
+autopep8 = "^1.6.0"
+kaggle = "^1.5.12"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
