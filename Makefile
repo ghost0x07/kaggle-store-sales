@@ -6,7 +6,7 @@ data:
 
 
 COMPETITION=store-sales-time-series-forecasting
-MESSAGE="Using all data naively"
+MESSAGE="Log Transform actual + non negative"
 
 submission:
 	kaggle competitions submit -c ${COMPETITION} -f submission.csv -m ${MESSAGE}
